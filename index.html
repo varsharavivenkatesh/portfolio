@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varsha's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container{
+            max-width:960px;
+            margin:0 auto;
+            padding:10px;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+}
+    </style>
+</head>
+<body>
+   <header>
+     <nav>
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+   </header> 
+   <section id="about">
+        <div class="container">
+            <img src="images/pfp.jpg" alt="profile pic" class="profile-img">
+            <h1>Varsha Ravivenkatesh</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: rgb(155, 89, 216)">Welcome to my Portfolio!</p>
+            <p> I’m a Computer Science Honors student at Iowa State University, passionate about AI, data science, and full-stack development. 
+                My experience spans AI research, data analysis, and software engineering through roles at Kingland, DataMavenz, and ISU’s D4 NRT program. 
+                I enjoy building impactful projects that combine AI and full-stack development, 
+                and I’m eager to apply my skills to innovative, real-world solutions.</p>
+        </div>
+   </section>
+   <section id = "projects">
+     <div class="container">
+        <h2>Projects</h2>
+        
+         <div class="project">
+        <img src="images/Screenshot 2026-02-02 151812.png" width="300px" alt="Project 1">
+        <h3><a href="https://github.com/varsharavivenkatesh/Packet-ingredient-analyzer">Ramen-Ingredient Analyzer</a></h3>
+        <p>
+            A tool to scan and analyze the ingredient lists on food packets, 
+            identifying potential non-vegetarian additives and other ingredients of interest.Built a full-stack web app that scans ramen package images using OCR (Tesseract) and classifies ingredients as
+            vegetarian or non-vegetarian using Gemini Pro API. Used Python, Flask, and Pandas for backend processing and prompt-based classification; developed a custom HTML,
+            CSS, and JavaScript frontend.
+
+
+        </p>
+        </div>
+
+        <div class="project">
+        <img src="images/Screenshot 2026-02-02 152214.png" width="300px" alt="Project 2">
+        <h3> <a href="https://github.com/varsharavivenkatesh/mern-mood-journal">Mood Journal</a></h3>
+        <p>
+            Mood Journal is a full-stack MERN application that allows users to record, track, and analyze their moods over time. 
+            The app integrates sentiment analysis to automatically detect the emotional tone of each journal entry and visualizes mood patterns using dynamic charts. 
+            It focuses on creating a simple, responsive, and engaging way to reflect on mental well-being.
+            It features CRUD operations for entries, integrated sentiment
+            analysis for mood tracking, and visualized mood 
+            trends over time using React Chart.js
+
+        </p>
+        </div>
+     </div>
+   </section>
+   <section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>You can reach me at: <br>  <a href="mailto:varsharaviven@gmail.com" class="email-link">
+        <img src="images/envelope-solid.svg" alt="Mail" width="20px" class="icon" />
+      </a>
+      <a href="https://www.linkedin.com/in/varsha-ravivenkatesh-308a90322/" class="social-link" target="_blank">
+        <img src="images/linkedin-brands (1).svg" alt="LinkedIn"  width="20px" class="icon" />
+        
+      </a>
+      <a href="https://github.com/varsharavivenkatesh" class="social-link" target="_blank">
+        <img src="images/icons8-github.svg" alt="Github"  width="20px" class="icon" />
+        
+      </a>
+    </p>
+    </div>
+
+   </section>
+   <footer>
+      <p>&copy; 2026 Varsha Ravivenkatesh</p>
+   </footer>
+</body>
+</html>
